@@ -1,4 +1,5 @@
 import React from 'react';
+import Counter from './Counter';
 class WelcomeC extends React.Component {
   render() {
     console.log(this.props);
@@ -8,6 +9,7 @@ class WelcomeC extends React.Component {
     <p>Welcome {this.props.name}</p>
     <p>Your age is {this.props.age}</p>
     <p>Your address is {this.props.address}</p>
+    <Counter />
     </>
     );
   }
