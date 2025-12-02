@@ -1,9 +1,9 @@
 import './App.css';
-import WelcomeC from './components/WelcomeC';
+import Form from './components/Form'; 
 function App() {
   return (
     <div className="App">
-      <WelcomeC name="Marwan" age="25" address="Cairo" />
+      <Form/>
     </div>
   );
 }
