@@ -1,6 +1,6 @@
 import './App.css';
-import { useState } from 'react';
-import List from './components/List';
+import React from 'react';
+import ProductList from './components/ProductList';
 function App() {
   // const [isLoggedIn, setIsLoggedIn] = useState(false);
   // let element;
@@ -17,8 +17,7 @@ function App() {
   //     {element}
   //   </div> 
     <div className="App">
-        <h1>List Example</h1>
-      <List/>
+      <ProductList/>
         </div>
   );
 }
